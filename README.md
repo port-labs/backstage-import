@@ -16,7 +16,7 @@ This repository contains a simple script that can be used to import data from yo
 2. Create a `.env` file with the following values
 ```bash
 BACKSTAGE_URL=<your backstage url>
-PORT_CLIENT_ID=<your port organization>
+PORT_CLIENT_ID=<your port client id>
 PORT_CLIENT_SECRET=<your port secret>
 ```
 3. Run
