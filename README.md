@@ -15,7 +15,7 @@ This repository contains a simple script that can be used to import data from yo
 1. Clone this repository `git clone https://github.com/port-labs/backstage-import.git`
 2. Create a `.env` file with the following values
 ```bash
-BACKSTAGE_URL=<your backstage url>
+BACKSTAGE_URL=<your backstage url i.e https://demo.backstage.io>
 PORT_CLIENT_ID=<your port client id>
 PORT_CLIENT_SECRET=<your port secret>
 ```

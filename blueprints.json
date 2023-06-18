@@ -156,10 +156,6 @@
         "icon": "Server",
         "schema": {
             "properties": {
-                "type": {
-                    "title": "Type",
-                    "type": "string"
-                },
                 "description": {
                     "type": "string",
                     "format": "markdown",
@@ -209,7 +205,7 @@
         }
     },
     {
-        "identifier": "api",
+        "identifier": "API",
         "title": "API",
         "icon": "ApiDoc",
         "schema": {
@@ -498,13 +494,13 @@
             },
             "providesApis": {
                 "title": "Provides APIs",
-                "target": "api",
+                "target": "API",
                 "many": true,
                 "required": false
             },
             "consumesApis": {
                 "title": "Consumes APIs",
-                "target": "api",
+                "target": "API",
                 "many": true,
                 "required": false
             },
