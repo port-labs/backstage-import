@@ -18,6 +18,7 @@ This repository contains a simple script that can be used to import data from yo
 BACKSTAGE_URL=<your backstage url i.e https://demo.backstage.io>
 PORT_CLIENT_ID=<your port client id>
 PORT_CLIENT_SECRET=<your port secret>
+MAX_CONCURRENCY=<change this to increase the number of concurrent requests default is 1>
 ```
 3. Run
 ```bash
