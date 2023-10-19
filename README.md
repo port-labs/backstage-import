@@ -28,6 +28,7 @@ PORT_CLIENT_SECRET=<your port secret>
 
 You can add the following to the `.env` file, but they are optional
 ```bash
+BACKSTAGE_BEARER_TOKEN=<your bearer token for backstage authorization if needed>
 MAX_CONCURRENCY=<change this to increase the number of concurrent requests default is 1>
 UPSERT_BLUEPRINTS=<set to false if you want to skip blueprint upsertion>
 ```
